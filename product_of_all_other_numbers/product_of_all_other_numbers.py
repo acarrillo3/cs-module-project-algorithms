@@ -4,8 +4,18 @@ Returns: a List of integers
 '''
 def product_of_all_other_numbers(arr):
     # Your code here
+    # walk through array at each spot
+    # walk through array again exept current sppot and append productinto new array
+    product_arr = []
+    for i in range(len(arr)):
+        product = 1
+        for j in range(len(arr)):
+            if(j != i):
+                product = product * arr[j]
 
-    pass
+        product_arr.append(product)
+
+    return product_arr
 
 
 if __name__ == '__main__':
