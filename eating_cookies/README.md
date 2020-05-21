@@ -9,6 +9,44 @@ For example, for a jar of cookies with `n = 3` (the jar has 3 cookies inside it)
  3. He can eat 2 cookies, then 1 cookie
  4. He can eat 3 cookies all at once. 
 
+ n = 1
+ 1. 1 cookie 1 time
+
+ n = 2
+ 1. 1 cookie 1 time 1 cookie 1 time 
+ 2. 2 cookie 1 time 
+
+ n =  3
+ 1. 1 cookie 1 time 1 cookie 1 time 1 cookie 1 time
+ 2. 2 cookie 1 time 1 cookie 1 time
+ 3. 1 cookie 1 time 2 cookie 1 time
+ 4. 3 cookie 1 time
+
+ n = 4
+ 1. 1 cookie 1 time 1 cookie 1 time 1 cookie 1 time 1 cookie 
+ 2. 2 cookie 1 time 1 cookie 1 time 1 cookie 1 time 1 cookie
+ 3. 1 cookie 1 time 2 cookie 1 time 1 cookie 1 time 1 cookie
+ 4. 3 cookie 1 time 1 cookie
+ 1. 1 cookie 1 time 1 cookie 1 time 2 cookie
+ 2. 2 cookie 1 time 2 cookie
+ 1. 1 cookie 1 time 3 cookie
+
+ n = 5
+ 1. 1 cookie 1 time 1 cookie 1 time 1 cookie 1 time 1 cookie 1 cookie
+ 2. 2 cookie 1 time 1 cookie 1 time 1 cookie 1 time 1 cookie
+ 3. 1 cookie 1 time 2 cookie 1 time 1 cookie 1 time 1 cookie
+ 4. 3 cookie 1 time 1 cookie 1 cookie
+ 1. 1 cookie 1 time 1 cookie 1 time 2 cookie 1 cookie
+ 2. 2 cookie 1 time 2 cookie 1 cookie
+ 1. 1 cookie 1 time 3 cookie 1 cookie
+ 1. 1 cookie 1 time 1 cookie 1 time 1 cookie 1 time 2 cookie
+ 2. 2 cookie 1 time 1 cookie 1 time 2 cookie
+ 3. 1 cookie 1 time 2 cookie 1 time 2 coooki
+ 4. 3 cookie 1 time 2 cookie
+ 1. 1 cookie 1 time 1 cookie 1 time 3 cookie
+ 2. 2 cookie 1 time 3 cookie
+
+
 Thus, `eating_cookies(3)` should return an answer of 4.
 
 Can you implement a solution that runs fast enough to pass the large input test?
